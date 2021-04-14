@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "Alamofire",
-        "repositoryURL": "git@github.com:Alamofire/Alamofire.git",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {
           "branch": null,
           "revision": "4d19ad82f80cc71ff829b941ded114c56f4f604c",
@@ -12,7 +12,7 @@
       },
       {
         "package": "ReSwift",
-        "repositoryURL": "git@github.com:ReSwift/ReSwift.git",
+        "repositoryURL": "https://github.com/ReSwift/ReSwift.git",
         "state": {
           "branch": null,
           "revision": "26d3095bdf55f093501bf3a749bb2718bab671b3",
@@ -21,7 +21,7 @@
       },
       {
         "package": "ReSwiftThunk",
-        "repositoryURL": "git@github.com:ReSwift/ReSwift-Thunk.git",
+        "repositoryURL": "https://github.com/ReSwift/ReSwift-Thunk.git",
         "state": {
           "branch": null,
           "revision": "5ee9816158a2115863b1458c66cf1be9e9143b39",

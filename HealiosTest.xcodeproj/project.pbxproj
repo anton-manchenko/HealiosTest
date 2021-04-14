@@ -27,9 +27,6 @@
 		3A36E4E42624CD3C00D1FB99 /* ServiceIpEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E4D62624CD3C00D1FB99 /* ServiceIpEndpoint.swift */; };
 		3A36E4E52624CD3C00D1FB99 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E4D82624CD3C00D1FB99 /* AppStore.swift */; };
 		3A36E4E62624CD3C00D1FB99 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E4D92624CD3C00D1FB99 /* AppMain.swift */; };
-		3A36E4EC2624CD9B00D1FB99 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A36E4EB2624CD9B00D1FB99 /* ReSwift */; };
-		3A36E4F22624CDBC00D1FB99 /* ReSwiftThunk in Frameworks */ = {isa = PBXBuildFile; productRef = 3A36E4F12624CDBC00D1FB99 /* ReSwiftThunk */; };
-		3A36E4F82624CDE800D1FB99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3A36E4F72624CDE800D1FB99 /* Alamofire */; };
 		3A36E4FF2624D08900D1FB99 /* HPostsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E4FE2624D08900D1FB99 /* HPostsState.swift */; };
 		3A36E5072624D09500D1FB99 /* HPostsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E5062624D09500D1FB99 /* HPostsReducer.swift */; };
 		3A36E50C2624D0A000D1FB99 /* HPostsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E50B2624D0A000D1FB99 /* HPostsAction.swift */; };
@@ -45,6 +42,9 @@
 		3A36E55F262548FA00D1FB99 /* ServiceMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E55E262548F900D1FB99 /* ServiceMocks.swift */; };
 		3A36E56326254A9B00D1FB99 /* TestHPostsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E559262547B000D1FB99 /* TestHPostsAction.swift */; };
 		3A36E56C26254BB400D1FB99 /* TestHPostsDetailAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E56B26254BB400D1FB99 /* TestHPostsDetailAction.swift */; };
+		3ACD99102627646200F7C188 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3ACD990F2627646200F7C188 /* ReSwift */; };
+		3ACD99162627647500F7C188 /* ReSwiftThunk in Frameworks */ = {isa = PBXBuildFile; productRef = 3ACD99152627647500F7C188 /* ReSwiftThunk */; };
+		3ACD991C2627649000F7C188 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3ACD991B2627649000F7C188 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,9 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A36E4F82624CDE800D1FB99 /* Alamofire in Frameworks */,
-				3A36E4F22624CDBC00D1FB99 /* ReSwiftThunk in Frameworks */,
-				3A36E4EC2624CD9B00D1FB99 /* ReSwift in Frameworks */,
+				3ACD991C2627649000F7C188 /* Alamofire in Frameworks */,
+				3ACD99162627647500F7C188 /* ReSwiftThunk in Frameworks */,
+				3ACD99102627646200F7C188 /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +360,9 @@
 			);
 			name = HealiosTest;
 			packageProductDependencies = (
-				3A36E4EB2624CD9B00D1FB99 /* ReSwift */,
-				3A36E4F12624CDBC00D1FB99 /* ReSwiftThunk */,
-				3A36E4F72624CDE800D1FB99 /* Alamofire */,
+				3ACD990F2627646200F7C188 /* ReSwift */,
+				3ACD99152627647500F7C188 /* ReSwiftThunk */,
+				3ACD991B2627649000F7C188 /* Alamofire */,
 			);
 			productName = HealiosTest;
 			productReference = 3A36E41E2624BFCE00D1FB99 /* HealiosTest.app */;
@@ -436,9 +436,9 @@
 			);
 			mainGroup = 3A36E4152624BFCE00D1FB99;
 			packageReferences = (
-				3A36E4EA2624CD9B00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift" */,
-				3A36E4F02624CDBC00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */,
-				3A36E4F62624CDE800D1FB99 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3ACD990E2627646200F7C188 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				3ACD99142627647500F7C188 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */,
+				3ACD991A2627649000F7C188 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 3A36E41F2624BFCE00D1FB99 /* Products */;
 			projectDirPath = "";
@@ -847,25 +847,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3A36E4EA2624CD9B00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+		3ACD990E2627646200F7C188 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:ReSwift/ReSwift.git";
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
 			requirement = {
 				kind = exactVersion;
 				version = 6.0.0;
 			};
 		};
-		3A36E4F02624CDBC00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */ = {
+		3ACD99142627647500F7C188 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:ReSwift/ReSwift-Thunk.git";
+			repositoryURL = "https://github.com/ReSwift/ReSwift-Thunk.git";
 			requirement = {
 				kind = exactVersion;
 				version = 2.0.1;
 			};
 		};
-		3A36E4F62624CDE800D1FB99 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		3ACD991A2627649000F7C188 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
 				kind = exactVersion;
 				version = 5.4.2;
@@ -874,19 +874,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3A36E4EB2624CD9B00D1FB99 /* ReSwift */ = {
+		3ACD990F2627646200F7C188 /* ReSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A36E4EA2624CD9B00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			package = 3ACD990E2627646200F7C188 /* XCRemoteSwiftPackageReference "ReSwift" */;
 			productName = ReSwift;
 		};
-		3A36E4F12624CDBC00D1FB99 /* ReSwiftThunk */ = {
+		3ACD99152627647500F7C188 /* ReSwiftThunk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A36E4F02624CDBC00D1FB99 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */;
+			package = 3ACD99142627647500F7C188 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */;
 			productName = ReSwiftThunk;
 		};
-		3A36E4F72624CDE800D1FB99 /* Alamofire */ = {
+		3ACD991B2627649000F7C188 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A36E4F62624CDE800D1FB99 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 3ACD991A2627649000F7C188 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
