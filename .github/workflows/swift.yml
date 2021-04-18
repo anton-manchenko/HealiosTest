@@ -1,10 +1,2 @@
-name: Build and Test app
-on: 
-  push:
-    branches: [master]
-jobs:
-  build:
-    runs-on: [macos-latest]
-    steps:
-    - name: iOS Build Action
-    uses: yukiarrr/ios-build-action@v1.3.3
+- name: iOS Build Action
+uses: yukiarrr/ios-build-action@v1.3.3
