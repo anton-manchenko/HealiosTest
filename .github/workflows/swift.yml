@@ -1,19 +1,14 @@
-name: Swift
+name: Deploy
 
 on:
+  # Trigger the workflow on push
+  # but only for the master branch
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+    branches:
+      - master
 jobs:
-  build:
-
-    runs-on: macos-latest
-
+  Build:
+    runs-on: macOS-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+    - name: Dump file hierarchy
+      run: ls -R
